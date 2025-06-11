@@ -4,7 +4,7 @@ load_dotenv()
 from typing import TypedDict, Annotated, Optional
 import streamlit as st
 
-model=ChatOpenAI(temperature=0.9)
+model = ChatOpenAI(model_name="gpt-4", api_key=st.secrets['api_key'], temperature=0)
  
 st.title("Review Analysis")
 class Review(TypedDict):
