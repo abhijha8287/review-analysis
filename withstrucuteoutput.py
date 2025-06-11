@@ -8,9 +8,9 @@ model = ChatOpenAI(model_name="gpt-4", api_key=st.secrets['api_key'], temperatur
  
 st.title("Review Analysis")
 class Review(TypedDict):
+    sentiment: Annotated[str, "Sentiment of the review"]
     key_theme: Annotated[list[str], "Key theme of the review"]
     Summary: Annotated[str, "Summary of the review"]
-    sentiment: Annotated[str, "Sentiment of the review"]
     pros=Annotated[Optional[list[str]], "Pros of the review"]
     cons=Annotated[Optional[list[str]], "Cons of the review"]
 
