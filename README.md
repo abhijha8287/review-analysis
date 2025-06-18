@@ -16,7 +16,7 @@ You simply paste any review into the input box, and the app returns:
 - 🔍 **Key Themes**: Main ideas discussed
 - ✅ **Pros**: Highlighted strengths
 - ❌ **Cons**: Identified drawbacks
-- 🧾 **Summary**: A short, structural json output
+- 🧾 **Summary**: A short, human tonic way
 
 ---
 
